@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --cor01: #010101;
+    --cor02: #5A5F73;
+    --cor03: #248C46;
+    --cor04: #7574bc;
+    --cor05: #2D2D4E;
+    --cor06: #37AF65;
+
+    --fonte01: 'Lato', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+}
+
+header {
+    background-color: var(--cor01);
+    padding: 20px 10px 20px 50px;
+    text-align: right;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-family: var(--fonte01);
+    font-size: 16px;
+}
+
+.link {
+    background-color: var(--cor06);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main {
+    background-color: var(--cor04);
+    padding: 150px;
+}
+
+main > h1 {
+    text-align: center;
+}
+
+main > p {
+    text-align: center;
+}
+
+article {
+    margin: auto;
+    background-color: var(--cor05);
+    padding: 50px;
+    border-radius: 5px;
+}
