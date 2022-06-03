@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 :root {
-    --cor01: #8F2AF6;
-    --cor02: #4B24D4;
-    --cor03: #343DEB;
-    --cor04: #245BD4;
-    --cor05: #2A9FF6;
+    --cor01: #653581;
+    --cor02: #4a24d441;
+    --cor03: #FC0A51;
+    --cor04: #E14D79;
+    --cor05: #A80737;
 }
 
 * {
@@ -14,12 +14,16 @@
 }
 
 body {
-    background-color: ;
+    background-image: url(../img/código.jpg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: center center;
 }
 
 header {
     background-color: var(--cor03);
     min-height: 20px;
+    min-width: 20px;
 }
 
 header > h1 {
@@ -33,6 +37,7 @@ nav {
     text-align: right;
     padding: 15px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.329);
+    min-width: 10px;
 }
 
 nav > a {
@@ -48,14 +53,14 @@ nav > a {
 
 nav > a:hover {
     background: var(--cor05);
-    color: var(--cor01);
+    color: var(--cor04);
     text-shadow: none;
 }
 
 main {
     margin: auto;
     margin-top: 100px;
-    min-width: 300px;
+    min-width: 150px;
     max-width: 500px;
     background-color: var(--cor01);
     padding: 20px;
