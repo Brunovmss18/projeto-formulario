@@ -15,9 +15,12 @@
 
 body {
     background-image: url(../img/código.jpg);
+    min-height: 50%;
+    max-height: 100%;
     background-repeat: no-repeat;
     background-size: 120%;
     background-position: center center;
+    
 }
 
 header {
